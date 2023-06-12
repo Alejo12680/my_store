@@ -1,27 +1,16 @@
-# MyStore
+<h1>Tienda Web</h1>
+<p>Este proyecto es una tienda web desarrollada con Angular. Proporciona una interfaz de usuario intuitiva y atractiva para que los clientes puedan navegar por los productos, agregarlos al carrito de compras y realizar pedidos.</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+<h2>Funcionalidades principales</h2>
 
-## Development server
+- Catálogo de productos: los usuarios pueden explorar los productos disponibles y ver detalles como el nombre, la descripción, el precio y la imagen de cada producto.
+- Carrito de compras: los usuarios pueden agregar productos al carrito de compras, ajustar las cantidades y eliminar productos del carrito.
+- proporcionando su información de envío y pago.
+- Autenticación: los usuarios pueden crear cuentas, iniciar sesión y cerrar sesión. Esto les permite acceder a su historial de pedidos y realizar un seguimiento de sus compras.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2>Requisitos previos</h2>
 
-## Code scaffolding
+<p>Antes de comenzar, asegúrate de tener instalados los siguientes componentes:</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Node.js (versión 12 o superior).
+- Angular CLI (versión 12 o superior).
