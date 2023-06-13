@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my_store';
+  imgParent = '';
+
+  onLoaded(img: string) {
+    console.log('aviso que llego mensaje del hijo al padre', img);    
+  }
 }
