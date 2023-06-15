@@ -1,2 +1,8 @@
+<!-- Una forma mas eficienten de colocar los componentes y mas limpia es de  "<app-product />" que de la otra forma "<app-product ></app-product >" -->
+
+<!-- la variable [img] se la enviamos al hijo componnente img -->
 <input type="text" [(ngModel)]="imgParent">
-<app-img (loaded)="onLoaded($event)" [img]="imgParent"></app-img>
+<app-img (loaded)="onLoaded($event)" [img]="imgParent" />
+
+<!-- la variable [product] es la que le enviamos al hijo product-->
+<app-product *ngFor="let item of productos" [product]="item" />
